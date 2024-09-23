@@ -1,0 +1,55 @@
+body {
+    background-color: #fafafa;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.post img {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    object-fit: cover; 
+}
+.post-body {
+    padding: 15px;
+}
+.profile-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+.like-button {
+    margin-top: 10px;
+}
+
+.post {
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+}
+
+.post:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comments-list {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+a { 
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+

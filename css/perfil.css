@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#posts-container {
+    margin-top: 20px;
+}
+
+.post {
+    position: relative;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.post img:hover {
+    transform: scale(1.05);
+}
+
+.text-muted {
+    font-style: italic;
+}
